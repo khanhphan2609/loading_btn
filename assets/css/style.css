@@ -152,11 +152,13 @@
 /* Loader3 */
 .loader3 {
     position: fixed;
-    top: 28vh;
+    top: 0;
+    bottom: 0;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    background: rgba(0, 0, 0, .6);
     -webkit-box-reflect: below 1px linear-gradient(#0001, #0004);
 }
 
@@ -183,6 +185,7 @@
 
 
 .loader3 .loader::before {
+    z-index: 10;
     content: '';
     position: absolute;
     top: 0;
@@ -197,6 +200,7 @@
 }
 
 .loader3 .loader::after {
+    z-index: 10;
     content: '';
     position: absolute;
     top: 0;
@@ -216,6 +220,7 @@
 }
 
 .loader3 .loader span {
+    z-index: 10;
     position: absolute;
     top: 20px;
     left: 20px;
