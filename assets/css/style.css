@@ -95,7 +95,7 @@
 }
 
 /* Loader2 */
-.loader2{
+.loader2 {
     position: fixed;
     top: 0;
     width: 100%;
@@ -159,27 +159,6 @@
     align-items: center;
     -webkit-box-reflect: below 1px linear-gradient(#0001, #0004);
 }
-
-/* 
-.loader3 img {
-    position: absolute;
-    top: 26vh;
-    right: 44vw;
-    width: 12%;
-    filter: brightness(1);
-} */
-
-/* 
-position: fixed;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-*/
 
 .loader3 .loader {
     position: relative;
